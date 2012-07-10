@@ -1,0 +1,33 @@
+﻿Build started 10/07/2012 20:21:22.
+     1>Project "C:\Users\Vincent\Downloads\comet_1b31\src\tlb2h\tlb2h.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching ".\Debug\tlb2h.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W1 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt tlb2h.cpp /Zm300  
+         tlb2h.cpp
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\tlb2h.exe.embed.manifest.res" .\Debug\tlb2h_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/tlb2h.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\tlb2h.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/tlb2h.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\tlb2h.lib" /MACHINE:X86 .\Debug\tlb2h.exe.embed.manifest.res
+         .\Debug/tlb2h.obj /MACHINE:I386 
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\tlb2h.exe.embed.manifest" /manifest .\Debug\tlb2h.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\tlb2h.exe.embed.manifest.res" .\Debug\tlb2h_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/tlb2h.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\tlb2h.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/tlb2h.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\tlb2h.lib" /MACHINE:X86 .\Debug\tlb2h.exe.embed.manifest.res
+         .\Debug/tlb2h.obj /MACHINE:I386 
+         tlb2h.vcxproj -> C:\Users\Vincent\Downloads\comet_1b31\src\tlb2h\.\Debug\tlb2h.exe
+       BscMake:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\Debug\tlb2h.bsc" .\Debug\tlb2h.sbr
+       PostBuildEvent:
+         copy debug\tlb2h.exe ..\..\bin
+         :VCEnd
+                 1 fichier(s) copié(s).
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\tlb2h.unsuccessfulbuild".
+         Touching ".\Debug\tlb2h.lastbuildstate".
+     1>Done Building Project "C:\Users\Vincent\Downloads\comet_1b31\src\tlb2h\tlb2h.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.05

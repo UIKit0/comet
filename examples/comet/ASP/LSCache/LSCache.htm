@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC -//W3C//DTD HTML 4.0 Transitional//EN>
+<html><head><title>LSCache</title><meta name=GENERATOR content=tlb2h></head>
+<body>
+<h1>LSCache</h2>
+<h2>Content:</h2>
+<h3>Coclasses:</h3>
+<table>
+<tr><td>Cache</td><td><i></i></td></tr>
+</table>
+<h3>Interfaces:</h3>
+<table>
+<tr><td><a href="#ICache">ICache</a></td><td><i></i></td></tr>
+</table>
+<h2>Details:</h2><hr>
+<h3><a name=ICache>ICache</a></h3>
+<p></p>
+<p>variant_t GetValue(const bstr_t&amp; idx, const bstr_t&amp; key);
+
+<br>
+<i></i></p>
+<p>void PutValue(const bstr_t&amp; idx, const bstr_t&amp; key, const variant_t&amp; pVal);
+
+<br>
+<i></i></p>
+<p>com_ptr&lt;<a href=#::IEnumVARIANT>::IEnumVARIANT</a>&gt; EnumerateKeys();
+
+<br>
+<i></i></p>
+<p>long GetCount();
+
+<br>
+<i></i></p>
+<p>void PutExpiry(long pv);
+
+<br>
+<i></i></p>
+<p>long GetExpiry();
+
+<br>
+<i></i></p>
+<p>void PutMaxSize(long pv);
+
+<br>
+<i></i></p>
+<p>long GetMaxSize();
+
+<br>
+<i></i></p>
+<p>void Remove(const bstr_t&amp; __MIDL__ICache0000);
+
+<br>
+<i></i></p>
+</body></html>

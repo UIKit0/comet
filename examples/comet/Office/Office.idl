@@ -1,0 +1,8 @@
+[
+	uuid(C7F3162C-E892-4890-AA22-718E142AD912),
+	version(1.0)
+]
+library CometOfficeExample
+{
+	importlib("stdole2.tlb");
+};
